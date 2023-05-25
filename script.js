@@ -4,6 +4,7 @@ function volume_sphere() {
 	
 	
 	 let cal = 4/3 * Math.PI * Math.pow(v1.value, 3);
+	 cal = cal.toFixed(4);
 	document.getElementById("volume").value = cal;
 	return false;
 } 
