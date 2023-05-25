@@ -1,6 +1,6 @@
 function volume_sphere() {
-    let vl = document.quarySelector("#radius");
-	let v2 = document.quarySelector("#volume");
+    let vl = document.getElementById("radius");
+	let v2 = document.getElementById("volume")
   
 } 
 
